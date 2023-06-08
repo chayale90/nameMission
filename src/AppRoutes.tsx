@@ -8,7 +8,6 @@ const AppRoutes=()=> {
             <Routes>
                 <Route index element={<HomePage />} />
 
-
                 {/*   (*) => Rest of routes!?!?  */}
                 <Route path='*' element={<NotFound />} />
 

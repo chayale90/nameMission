@@ -1,15 +1,11 @@
-// import AppRoutes from './AppRoutes'
-// import Counter from './components/home-comps/Counter'
-import HomePage from './components/home-comps/HomePage'
-
+import AppRoutes from './AppRoutes'
 import './App.css'
 
 function App() {
 
   return (
     <>
-     <HomePage/>
-     {/* <Counter /> */}
+     <AppRoutes/>
     </>
   )
 }
