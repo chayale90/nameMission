@@ -9,7 +9,7 @@ interface MyObject {
 
 
 const HomePage = () => {
-    const { handleSubmit, formState: { errors } } = useForm();
+    const { handleSubmit } = useForm();
     const inputRef = useRef<HTMLInputElement | null>(null);
     const [gender, setGender] = useState<string>("");
     const [genderProb, setGenderProb] = useState<string>("");
