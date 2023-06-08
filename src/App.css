@@ -1,0 +1,12 @@
+*{
+  margin: 0;
+  padding: 0.25rem;
+  box-sizing: border-box;
+}
+
+body {
+    font-family: 'Rubik', sans-serif;
+    /* overflow-x: hidden; */
+    color: #333;
+    text-align: center;
+}
