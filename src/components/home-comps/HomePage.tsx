@@ -69,8 +69,11 @@ const HomePage = () => {
             </form>
             <div className='mt-4'>
                 <h2>Name: {inputRef.current?.value}</h2>
-                <h4>Gender: {gender} </h4>
+              {
+                gender&&<div><h4>Gender: {gender} </h4>
                 <h5>probability: {genderProb}</h5>
+                </div>
+              }  
             </div>
             {
                 countriesArr.length > 0 && <ConuntryList countriesArr={countriesArr} />
